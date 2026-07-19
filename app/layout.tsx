@@ -25,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body className={`${sans.variable} ${serif.variable} font-sans`}>
+      <body
+        className={`${sans.variable} ${serif.variable} bg-background-neutral-default relative overflow-clip font-sans`}
+      >
         {children}
       </body>
     </html>

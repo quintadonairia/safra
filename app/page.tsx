@@ -3,7 +3,7 @@ import { site } from '@/data/site';
 
 export default function Home() {
   return (
-    <main className="bg-background-neutral-default flex min-h-dvh flex-col items-center justify-center">
+    <main className="flex min-h-dvh flex-col items-center justify-center">
       <Logo className="size-40" />
       <a
         href={site.reservation.link}
