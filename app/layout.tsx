@@ -1,5 +1,16 @@
 import type { Metadata } from 'next';
+import { Fraunces, Montserrat } from 'next/font/google';
 import './globals.css';
+
+const sans = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-sans',
+});
+
+const serif = Fraunces({
+  subsets: ['latin'],
+  variable: '--font-serif',
+});
 
 export const metadata: Metadata = {
   title: 'Safra Restaurante',
@@ -13,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body>{children}</body>
+      <body className={`${sans.variable} ${serif.variable} font-sans`}>
+        {children}
+      </body>
     </html>
   );
 }
