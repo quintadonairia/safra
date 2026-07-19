@@ -1,3 +1,4 @@
+import { site } from '@/data/site';
 import type { SVGProps } from 'react';
 
 type LogoProps = SVGProps<SVGSVGElement> & {
@@ -6,7 +7,7 @@ type LogoProps = SVGProps<SVGSVGElement> & {
 
 export function Logo({
   className,
-  title = 'Safra Restaurante',
+  title = site.brand.name,
   ...props
 }: LogoProps) {
   return (

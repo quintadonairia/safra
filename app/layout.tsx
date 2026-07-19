@@ -1,3 +1,4 @@
+import { site } from '@/data/site';
 import type { Metadata } from 'next';
 import { Fraunces, Montserrat } from 'next/font/google';
 import './globals.css';
@@ -13,8 +14,8 @@ const serif = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: 'Safra Restaurante',
-  description: 'Um toque moderno inspirado na tradição da cozinha Portuguesa.',
+  title: site.brand.name,
+  description: site.brand.tagline,
 };
 
 export default function RootLayout({
