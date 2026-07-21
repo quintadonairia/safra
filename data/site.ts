@@ -12,6 +12,16 @@ export const site = {
       label: '(+351) 924 733 556',
       link: 'tel:+351924733556',
     },
+    email: {
+      label: 'safra@quintadonairia.com',
+      link: 'mailto:safra@quintadonairia.com',
+    },
+  },
+  social: {
+    instagram: {
+      handle: '@safrarestaurante',
+      link: 'https://instagram.com/safrarestaurante',
+    },
   },
   reservation: {
     link: 'https://widget.thefork.com/80f72e41-deeb-4abc-bffe-a1bf9384cab5',
