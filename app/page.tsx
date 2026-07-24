@@ -10,7 +10,7 @@ export default function Home() {
           href={site.reservation.link}
           target="_blank"
           rel="noopener"
-          className="text-body-small border-border-neutral-inverse hover:bg-background-neutral-inverse hover:text-foreground-neutral-inverse rounded-xs border bg-transparent px-6 py-4 font-medium tracking-[0.2em] uppercase transition duration-200"
+          className="text-body-small border-border-neutral-inverse hover:bg-background-neutral-inverse hover:text-foreground-neutral-inverse active:bg-background-neutral-inverse active:text-foreground-neutral-inverse cursor-pointer rounded-xs border bg-transparent px-6 py-4 font-medium tracking-[0.2em] uppercase transition duration-200"
         >
           Reservar mesa
         </a>

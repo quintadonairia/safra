@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 
 :root {
+  -webkit-tap-highlight-color: transparent;
+
   --background-neutral-default: hsl(30 48% 96%);
   --background-neutral-strong: hsl(30 16% 80%);
   --background-neutral-subtle: hsl(30 24% 88%);
